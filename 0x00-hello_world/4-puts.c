@@ -1,5 +1,5 @@
-#includ <stdio.h>
-#includ <string.h>
+#include <stdio.h>
+#include <string.h>
 /**
  * main-print a predefined string
  *
@@ -8,7 +8,7 @@
 
 int main(void)
 {
-  puts("\" Programming is like building a multilingual puzzle');
+  puts("\" Programming is like building a multilingual puzzle");
   return (0);
 
 }
