@@ -1,15 +1,23 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_diagonal - prints a doagonal line of length n
+ * @n: Lenth of the diagonal line
  */
-int main(void)
+void print_diagonal(int n)
 {
-    print_diagonal(0);
-    print_diagonal(2);
-    print_diagonal(10);
-    print_diagonal(-4);
-    return (0);
+	int i, j;
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < i; j++)
+			_putchar(' ');
+
+		_putchar('\\');
+		_putchar('\n');
+	}
 }
