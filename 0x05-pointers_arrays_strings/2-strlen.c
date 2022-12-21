@@ -2,17 +2,17 @@
 #include <stdio.h>
 
 /**
- * _strlen - returns the length of a string
- * @s: pointer to first character of string
+ * main - check the code for Holberton School students.
  *
- * Return: length of string
+ * Return: Always 0.
  */
-int _strlen(char *s)
+int main(void)
 {
-	int i;
+    char *str;
+    int len;
 
-	for (; *s != '\0'; s++)
-		i++;
-
-	return (i);
+    str = "main!";
+    len = _strlen(str);
+    printf("%d\n", len);
+    return (0);
 }
